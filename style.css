@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;}
+
+ .logo{
+    width: 150px;
+    height: 90px;
+    padding-left: 0px;}   
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-basis: 60%;}
+    
+ .nav a{
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 80px;
+    color: white;}
+    
+
+.btn1{
+    background-color: black;
+    border: 2px solid white;
+    font-size: 14px;
+    width: 150px;
+    color: white;
+     height: 50px;
+     border-radius: 30px;
+}
+.btn2{
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 14px;
+    background-color: red;
+height: 50px;
+    width: 150px;
+    color: white;}
+  .img{
+    width: 100%}
+    
+.brands{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: capitalize; 
+    font-size: 25px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   width: 100%;
+   height: 700px;}
+.heading1{
+    font-weight:bold; font-size:50px;} 
+
+.heading2{
+    font-size:19px ;
+     color: rgb(224, 224, 224);}   
+ 
+.brands p{
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    line-height: 40px;}
+
+button{width: 110px;
+      height: 40px;
+      border-radius: 30px;
+     text-transform: capitalize;}    
+
+.rf{
+    
+    background-color: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+    text-transform: capitalize; 
+    font-size: 25px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.para1{background-color:rgb(32,32,32);color: white;   
+justify-content: space-between;
+text-align: left;
+display: flex;
+}
+.para2{
+    margin: 10px auto;}
+.islam{background-color: rgb(32,32,32);} 
+ .img2{margin-right: 50px;}
+ .oper{color: red;
+letter-spacing: 5px;}
+button{background-color: black;color: white;border: 1px solid white;
+margin-top: 10px;
+width: 200px;
+height: 52px;
+
+
+display: flex;
+align-items: center;
+justify-content:space-around;
+font-size: 14px;}
+
+.para3{width: 100%;  background-color: rgb(32,32,32);color: white;
+justify-content: space-between;
+text-align: right;
+display: flex;}
+.para4{margin: 10px auto;}
+.faisal{background-color: rgb(32,32,32);}
+.oper2{text-align: left;color: red;letter-spacing:5px;}
+
+.para5{
+    background-color:rgb(32,32,32);color:white;justify-content: space-between;text-align: left;display: flex;}
+.para6{margin: 10px auto;}
+
+.express{background-color: black;color: white;}
+.img5{height: 250px;}
+.express1{
+    background-color: black;color: white;display: flex;justify-content: space-evenly;font-size:small;line-height:50px
+}    
+.express2{
+    background-color: black;color: white;display: flex;justify-content:space-evenly;font-size:small;line-height:50px
+}    
+.img8{background-color: black; padding-top:20px;display: flex;justify-content: space-evenly;}
+.express3{
+    background-color: black;color: white;display: flex;justify-content:space-evenly;font-size:small;line-height:50px
+}    
+.img9{background-color: black;padding-top: 20px;display: flex;justify-content: space-evenly;}
+.img10{height: 250px;width: 300px;}
+.express4{
+    background-color: black;color: white;display: flex;justify-content:space-evenly;font-size:small;line-height:50px
+} 
+.img11{background-color: black;padding-top: 20px;justify-content: space-evenly;display: flex;}
+.img12,.img13{height:250px;width:300px;}   
+.img14{display: flex;justify-content: space-evenly;}
+.village{ background-color: black ; color: white; padding-top: 50px;display:}
+.open{background-color: black;color: white;padding-top: 50px;}
+.cards{background-color: black;color: white;align-items: center; display: flex;justify-content: space-evenly;}
+.card1{width: 400px;height: 300px; background-color: white;color: black;border-radius: 10px;}
+.soon{background-color: black;color: white;align-items: center;display: flex;justify-content: space-evenly;padding-top: 50px;}
+.soon2{background-color: black;color: white;align-items: center;display: flex;justify-content: space-evenly;padding-top: 50px;}
+.card2{width: 400px;height: 300px; background-color: white;color: black;border-radius: 10px;}
+.card3{width: 400px;height: 300px; background-color: white;color: black;border-radius: 10px;}
+.card4{width: 400px;height: 300px; background-color: white;color: black;border-radius: 10px;}
+.card5{width: 400px;height: 300px; background-color: white;color: black;border-radius: 10px;}
+.card6{width: 400px;height: 300px; background-color: white;color: black;border-radius: 10px;}
+.card7{width: 400px;height: 300px; background-color: white;color: black;border-radius: 10px;}
+.card8{width: 400px;height: 300px; background-color: white;color: black;border-radius: 10px;}
+.food{background-color: black;color: white;padding-top: 100px;padding-bottom: 100px;}
+.f1{width: 250px;height: 250px;}
+.f2{width: 250px;height: 250px;}
+.f3{width: 250px;height: 250px;}
+.f4{width: 250px;height: 250px;}
+.f5{width: 250px;height: 250px;}
+.f6{width: 250px;height: 250px;}
+.foods{background-color: black;justify-content: space-between;padding-bottom: 50px;}
+.row{background-color: black;color: white;}
+.col{width: 300px;height: auto;}
+.row{display: flex;justify-content: space-evenly;}
+.col2{line-height: 3em;}
+.col3{line-height: 2em;}
+.last{padding-top: 10px;}
